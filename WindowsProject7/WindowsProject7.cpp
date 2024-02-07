@@ -50,7 +50,7 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	MSG msg;
 	while (GetMessage(&msg, NULL, 0, 0)) {
 		DispatchMessage(&msg);
-	}
+	} 
 
 	return msg.wParam;
 }
